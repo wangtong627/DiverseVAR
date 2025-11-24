@@ -2,9 +2,9 @@
 <h1> 🌟 DiverseVAR </h1>
 <h2>Diversity Has Always Been There in Your Visual Autoregressive Models</h2>
 
-[Tong Wang](https://wangtong627.github.io/)<sup>1,2</sup>, [Guanyu Yang](https://cs.seu.edu.cn/gyyang/main.htm)<sup>1,\*</sup>, Nian Liu<sup>2,\*</sup>, Kai Wang<sup>2</sup>, Yaxing Wang<sup>2</sup>, Abdelrahman M Shaker<sup>2</sup>, Salman Khan<sup>2</sup>, [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home)<sup>2</sup>, Senmao Li<sup>2</sup>
+[Tong Wang](https://wangtong627.github.io/)<sup>1,2</sup>, [Guanyu Yang](https://cs.seu.edu.cn/gyyang/main.htm)<sup>1</sup>, Nian Liu<sup>2</sup>, Kai Wang<sup>3</sup>, Yaxing Wang<sup>2</sup>, Abdelrahman M Shaker<sup>2</sup>, Salman Khan<sup>2</sup>, [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home)<sup>2</sup>, Senmao Li<sup>4,2</sup>
 
-<sup>1</sup> Southeast University, <sup>2</sup> Mohamed Bin Zayed University of Artificial Intelligence
+<sup>1</sup> Southeast University, <sup>2</sup> MBZUAI, <sup>3</sup> City University of Hong Kong, <sup>4</sup> Nankai University
 
 <small><span style="color:#E63946; font-weight:bold;">\*</span> indicates corresponding authors</small>
 
