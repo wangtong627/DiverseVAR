@@ -49,7 +49,7 @@ The figure below illustrates the enhanced generative diversity achieved by our D
 
 
 <div align="center">
-    <img src="figure1_main_samples_compressed.pdf" alt="DiverseVAR Qualitative Results">
+    <img src="figure1_main_samples_compressed.png" alt="DiverseVAR Qualitative Results">
     <br>
     [cite_start]Figure 1. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows)[cite: 22].
 </div>
