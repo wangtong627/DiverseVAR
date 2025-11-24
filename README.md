@@ -1,6 +1,6 @@
 <div align="center">
 <h1> 🌟 DiverseVAR </h1>
-<h2>Diversity Has Always Been There in Your Visual Autoregressive Models</h2>
+<h3>Diversity Has Always Been There in Your Visual Autoregressive Models</h3>
 
 [Tong Wang](https://wangtong627.github.io/)<sup>1,2</sup>, [Guanyu Yang](https://cs.seu.edu.cn/gyyang/main.htm)<sup>1</sup>, [Nian Liu](https://sites.google.com/site/liunian228/)<sup>2</sup>, [Kai Wang](https://wangkai930418.github.io/)<sup>3</sup>, [Yaxing Wang](https://yaxingwang.github.io/)<sup>4</sup>, [Abdelrahman M Shaker](https://amshaker.github.io/)<sup>2</sup>,
 <br>
