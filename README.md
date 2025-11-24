@@ -5,9 +5,9 @@
 [Tong Wang](https://wangtong627.github.io/)<sup>1,2</sup>, [Guanyu Yang](https://cs.seu.edu.cn/gyyang/main.htm)<sup>1</sup>, [Nian Liu](https://sites.google.com/site/liunian228/)<sup>2</sup>, [Kai Wang](https://wangkai930418.github.io/)<sup>3</sup>, [Yaxing Wang](https://yaxingwang.github.io/)<sup>4</sup>, [Abdelrahman M Shaker](https://amshaker.github.io/)<sup>2</sup>,
 <br>
 [Salman Khan](https://salman-h-khan.github.io/)<sup>2</sup>, [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home)<sup>2</sup>, [Senmao Li](https://sen-mao.github.io/)<sup>4,2</sup>
-<br>
+
 <sup>1</sup> Southeast University, <sup>2</sup> MBZUAI, <sup>3</sup> City University of Hong Kong, <sup>4</sup> Nankai University
-<br>
+
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17074-red)](https://arxiv.org/abs/2511.17074)
 </div>
 
