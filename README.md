@@ -6,24 +6,12 @@
 
 <sup>1</sup> Southeast University, <sup>2</sup> MBZUAI, <sup>3</sup> City University of Hong Kong, <sup>4</sup> Nankai University
 
-<small><span style="color:#E63946; font-weight:bold;">\*</span> indicates corresponding authors</small>
-
 <br>
 
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17074-red)](https://arxiv.org/abs/2511.17074)
 
 </div>
-
-***
-
-## ⚠️ Code and Model Availability
-
-**This work is currently under confidential review for CVPR 2026 Submission #2086.**
-
-**For this reason, the code and pre-trained models are temporarily unavailable and cannot be made public at this time.** We are committed to releasing the code immediately upon paper acceptance. Thank you for your patience and understanding!
-
-***
 
 ## 💡 Introduction
 
