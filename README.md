@@ -22,7 +22,7 @@ Despite their advantages in inference efficiency and image quality, VAR models f
 
 DiverseVAR leverages these findings by strategically intervening on the pivotal components during the inference process to unlock the inherent generative potential of VAR models.
 
-***
+
 
 ## 🛠️ Method Overview
 
@@ -38,7 +38,7 @@ The DiverseVAR framework introduces two complementary, training-free regularizat
 
 This training-free framework effectively boosts generative diversity while maintaining high-fidelity synthesis and faithful semantic alignment.
 
-***
+
 
 ## 🖼️ Qualitative Results
 
@@ -52,7 +52,7 @@ The figure below illustrates the enhanced generative diversity achieved by our D
 
 The text prompts used are: "A man in a clown mask eating a donut", "A cat wearing a Halloween costume", "Golden Gate Bridge at sunset, glowing sky, .", "A palace under the sunset", "A cool astronaut floating in space", and "A cat riding a skateboard down a hill".
 
-***
+
 
 ## 📊 Quantitative Results (COCO Benchmarks)
 
@@ -71,7 +71,7 @@ The table below demonstrates that our DiverseVAR significantly improves diversit
 
 * $\uparrow$: Higher is better. $\downarrow$: Lower is better.
 
-***
+
 
 ## 📄 Citation
 
