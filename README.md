@@ -45,7 +45,7 @@ This training-free framework effectively boosts generative diversity while maint
 The figure below illustrates the enhanced generative diversity achieved by our DiverseVAR (2nd and 4th rows) compared to the vanilla VAR models (1st and 3rd rows). Our method produces a wider variety of realistic images while preserving high-quality and strong text-image alignment.
 
 <div align="center">
-    <img src="figure1_main_samples_compressed.png" alt="DiverseVAR Qualitative Results">
+    <img src="DiverseVAR.png" alt="DiverseVAR Qualitative Results">
     <br>
     Figure 1. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows).
 </div>
