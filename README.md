@@ -78,12 +78,9 @@ The table below demonstrates that our DiverseVAR significantly improves diversit
 Please cite our paper if you find this work useful for your research:
 
 ```bibtex
-@misc{wang2025diversityvisualautoregressivemodels,
-      title={Diversity Has Always Been There in Your Visual Autoregressive Models}, 
-      author={Tong Wang and Guanyu Yang and Nian Liu and Kai Wang and Yaxing Wang and Abdelrahman M Shaker and Salman Khan and Fahad Shahbaz Khan and Senmao Li},
-      year={2025},
-      eprint={2511.17074},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={[https://arxiv.org/abs/2511.17074](https://arxiv.org/abs/2511.17074)}, 
+@article{wang2025diversity,
+  title={Diversity Has Always Been There in Your Visual Autoregressive Models},
+  author={Wang, Tong and Yang, Guanyu and Liu, Nian and Wang, Kai and Wang, Yaxing and Shaker, Abdelrahman M and Khan, Salman and Khan, Fahad Shahbaz and Li, Senmao},
+  journal={arXiv preprint arXiv:2511.17074},
+  year={2025}
 }
