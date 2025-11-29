@@ -14,14 +14,10 @@
 <strong>Fahad Shahbaz Khan</strong><sup>2</sup>,
 <strong>Senmao Li</strong><sup>4,2</sup>
 
-<br><br>
-
 <sup>1</sup> Southeast University &nbsp;&nbsp;
 <sup>2</sup> MBZUAI &nbsp;&nbsp;
 <sup>3</sup> City University of Hong Kong &nbsp;&nbsp;
 <sup>4</sup> Nankai University
-
-<br><br>
 
 <a href="https://arxiv.org/abs/2511.17074">
   <img src="https://img.shields.io/badge/arXiv-2511.17074-red" alt="arXiv badge">
