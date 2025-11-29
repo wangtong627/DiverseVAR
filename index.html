@@ -5,7 +5,11 @@
   <title>DiverseVAR: Diversity Has Always Been There in Your Visual Autoregressive Models</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- 简单样式，先保证看起来干净一点 -->
+  <!-- 网页标签的小图标（favicon），请保证 DiverseVAR.png 在同一目录下 -->
+  <!-- <link rel="icon" type="image/png" href="DiverseVAR.png"> -->
+  <!-- <link rel="shortcut icon" type="image/png" href="DiverseVAR.png"> -->
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png">
+
   <style>
     * {
       box-sizing: border-box;
@@ -35,16 +39,9 @@
       margin: 0 auto;
       padding: 0 16px;
     }
-    .nav {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 16px;
-      font-size: 0.95rem;
-    }
-    .nav a {
-      font-weight: 500;
-    }
+
+    /* 原来的 .nav 样式已删除 */
+
     .hero {
       text-align: center;
     }
@@ -101,7 +98,7 @@
       border: 1px solid #eee;
     }
     
-    /* table {
+    table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 12px;
@@ -110,48 +107,26 @@
     table thead {
       background-color: #f3f4f6;
     }
-    table th, table td {
+    table th,
+    table td {
       padding: 8px;
       border: 1px solid #e5e7eb;
-      text-align: center;
     }
-    table th:first-child, table td:first-child {
+    /* 第 1 列：Dataset，左对齐 */
+    table th:first-child,
+    table td:first-child {
       text-align: left;
-    } */
-    table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 12px;
-    font-size: 0.9rem;
-  }
-  
-  table thead {
-    background-color: #f3f4f6;
-  }
-  
-  table th,
-  table td {
-    padding: 8px;
-    border: 1px solid #e5e7eb;
-  }
-  
-  /* 第 1 列：Dataset，左对齐 */
-  table th:first-child,
-  table td:first-child {
-    text-align: left;
-  }
-  
-  /* 第 2 列：Method，左对齐 */
-  table th:nth-child(2),
-  table td:nth-child(2) {
-    text-align: left;
-  }
-  
-  /* 从第 3 列开始（Recall / Cov. / FID / CLIP）：右对齐，更整齐 */
-  table th:nth-child(n + 3),
-  table td:nth-child(n + 3) {
-    text-align: left;
-  }
+    }
+    /* 第 2 列：Method，左对齐 */
+    table th:nth-child(2),
+    table td:nth-child(2) {
+      text-align: left;
+    }
+    /* 从第 3 列开始（数值列），目前设为左对齐，如果想右对齐把 left 改成 right */
+    table th:nth-child(n + 3),
+    table td:nth-child(n + 3) {
+      text-align: left;
+    }
     
     code, pre {
       font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -182,10 +157,6 @@
       .hero h3 {
         font-size: 1.05rem;
       }
-      .nav {
-        flex-wrap: wrap;
-        gap: 10px;
-      }
     }
     
   </style>
@@ -193,14 +164,7 @@
 <body>
   <header>
     <div class="container">
-      <!-- 顶部导航，可跳转到不同 section -->
-      <nav class="nav">
-        <a href="#intro">Introduction</a>
-        <a href="#method">Method</a>
-        <a href="#qualitative">Qualitative</a>
-        <a href="#quantitative">Quantitative</a>
-        <a href="#citation">Citation</a>
-      </nav>
+      <!-- 顶部导航已删除 -->
 
       <!-- 项目标题 & 作者信息 -->
       <div class="hero">
@@ -231,7 +195,7 @@
           <!-- arXiv badge -->
           <a href="https://arxiv.org/abs/2511.17074" target="_blank" rel="noopener">
             <img src="https://img.shields.io/badge/arXiv-2511.17074-red" alt="arXiv 2511.17074">
-          </a
+          </a>
 
           <!-- GitHub Repo badge -->
           <a href="https://github.com/wangtong627/DiverseVAR" target="_blank" rel="noopener">
@@ -301,6 +265,15 @@
           This training-free framework effectively boosts generative diversity while maintaining high-fidelity
           synthesis and faithful semantic alignment.
         </p>
+
+        <!-- DiverseVAR 总体框架示意图 -->
+        <div class="figure">
+          <img src="Framework_DiverseVAR.png" alt="The overall framework of DiverseVAR">
+          <div>
+            Figure 2. The overall framework of DiverseVAR. Diversity is encouraged at early scales,
+            while the standard VAR inference process is preserved at later scales.
+          </div>
+        </div>
       </section>
 
       <!-- Qualitative -->
@@ -313,7 +286,7 @@
         </p>
 
         <div class="figure">
-          <!-- 注意：请确保 DiverseVAR.png 放在 docs/ 目录或者正确的相对路径下 -->
+          <!-- 注意：请确保 DiverseVAR.png 在正确路径下 -->
           <img src="DiverseVAR.png" alt="DiverseVAR Qualitative Results">
           <div>
             Figure 1. Multiple generation samples from the vanilla VAR models (1st and 3rd rows)
