@@ -43,6 +43,11 @@ The DiverseVAR framework introduces two complementary, training-free regularizat
 
 This training-free framework effectively boosts generative diversity while maintaining high-fidelity synthesis and faithful semantic alignment.
 
+<div align="center">
+    <img src="Framework_DiverseVAR.png" width="80%" alt="Overall Framework of DiverseVAR">
+    <br>
+    <em>Figure 1. The overall framework of DiverseVAR. Diversity is encouraged at early scales while the standard VAR inference is preserved at later scales.</em>
+</div>
 
 
 ## 🖼️ Qualitative Results
@@ -52,7 +57,7 @@ The figure below illustrates the enhanced generative diversity achieved by our D
 <div align="center">
     <img src="DiverseVAR.png" alt="DiverseVAR Qualitative Results">
     <br>
-    Figure 1. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows).
+    Figure 2. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows).
 </div>
 
 The text prompts used are: "A man in a clown mask eating a donut", "A cat wearing a Halloween costume", "Golden Gate Bridge at sunset, glowing sky, .", "A palace under the sunset", "A cool astronaut floating in space", and "A cat riding a skateboard down a hill".
