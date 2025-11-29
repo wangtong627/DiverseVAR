@@ -57,7 +57,7 @@ The figure below illustrates the enhanced generative diversity achieved by our D
 <div align="center">
     <img src="DiverseVAR.png" alt="DiverseVAR Qualitative Results">
     <br>
-    Figure 2. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows).
+    <em>Figure 2. Multiple generation samples from the vanilla VAR models (1st and 3rd rows) and our DiverseVAR (2nd and 4th rows).</em>
 </div>
 
 The text prompts used are: "A man in a clown mask eating a donut", "A cat wearing a Halloween costume", "Golden Gate Bridge at sunset, glowing sky, .", "A palace under the sunset", "A cool astronaut floating in space", and "A cat riding a skateboard down a hill".
