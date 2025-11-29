@@ -81,10 +81,9 @@ The table below demonstrates that our DiverseVAR significantly improves diversit
 | | Infinity-8B | 0.563 | 0.892 | 29.47 | 0.319 |
 | | **+Ours (DiverseVAR)** | **0.585** | 0.892 | **25.01** | 0.316 |
 
-</div>
 * $\uparrow$: Higher is better. $\downarrow$: Lower is better.
 
-
+</div>
 
 ## 📄 Citation
 
