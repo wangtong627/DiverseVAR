@@ -12,6 +12,10 @@
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://wangtong627.github.io/DiverseVAR)
 </div>
 
+<p align="center">
+    <img src="https://i.imgur.com/waxVImv.png" alt="DiverseVAR">
+</p>
+
 ## 💡 Introduction
 
 We introduce **DiverseVAR**, a simple yet highly effective approach to restore the **generative diversity** of **Visual Autoregressive (VAR)** models **without any additional training**.
