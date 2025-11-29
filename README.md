@@ -11,7 +11,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17074-red)](https://arxiv.org/abs/2511.17074)
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://wangtong627.github.io/DiverseVAR)
 </div>
-
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="DiverseVAR">
 </p>
