@@ -68,8 +68,6 @@ The text prompts used are: "A man in a clown mask eating a donut", "A cat wearin
 
 The table below demonstrates that our DiverseVAR significantly improves diversity metrics ($\text{Recall} \uparrow$, $\text{Cov.} \uparrow$, $\text{FID} \downarrow$) while maintaining comparable $\text{CLIPScore} (\text{CLIP} \uparrow)$ on the COCO2014-30K and COCO2017-5K benchmarks.
 
-<div align="center">
-
 | Dataset | Method | Recall $\uparrow$ | Cov. $\uparrow$ | FID $\downarrow$ | CLIP $\uparrow$ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **COCO2014-30K** | Infinity-2B | 0.316 | 0.651 | 28.48 | 0.313 |
@@ -83,7 +81,6 @@ The table below demonstrates that our DiverseVAR significantly improves diversit
 
 * $\uparrow$: Higher is better. $\downarrow$: Lower is better.
 
-</div>
 
 ## 📄 Citation
 
