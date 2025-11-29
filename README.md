@@ -44,7 +44,7 @@ The DiverseVAR framework introduces two complementary, training-free regularizat
 This training-free framework effectively boosts generative diversity while maintaining high-fidelity synthesis and faithful semantic alignment.
 
 <div align="center">
-    <img src="Framework_DiverseVAR.png" width="80%" alt="Overall Framework of DiverseVAR">
+    <img src="Framework_DiverseVAR.png" alt="Overall Framework of DiverseVAR">
     <br>
     <em>Figure 1. The overall framework of DiverseVAR. Diversity is encouraged at early scales while the standard VAR inference is preserved at later scales.</em>
 </div>
