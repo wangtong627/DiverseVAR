@@ -100,7 +100,8 @@
       border-radius: 8px;
       border: 1px solid #eee;
     }
-    table {
+    
+    /* table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 12px;
@@ -116,7 +117,42 @@
     }
     table th:first-child, table td:first-child {
       text-align: left;
-    }
+    } */
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 0.9rem;
+  }
+  
+  table thead {
+    background-color: #f3f4f6;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* 第 1 列：Dataset，左对齐 */
+  table th:first-child,
+  table td:first-child {
+    text-align: left;
+  }
+  
+  /* 第 2 列：Method，左对齐 */
+  table th:nth-child(2),
+  table td:nth-child(2) {
+    text-align: left;
+  }
+  
+  /* 从第 3 列开始（Recall / Cov. / FID / CLIP）：右对齐，更整齐 */
+  table th:nth-child(n + 3),
+  table td:nth-child(n + 3) {
+    text-align: left;
+  }
+    
     code, pre {
       font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 0.85rem;
@@ -151,12 +187,6 @@
         gap: 10px;
       }
     }
-
-  /* 强制 Method 列（第二列）左对齐 */
-  table td:nth-child(2),
-  table th:nth-child(2) {
-    text-align: left !important;
-  }
     
   </style>
 </head>
