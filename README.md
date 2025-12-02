@@ -16,6 +16,11 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="DiverseVAR">
 </p>
 
+## 📣 Announcement
+
+The model codes will be released soon. Stay tuned! 🚀
+
+
 ## 💡 Introduction
 
 We introduce **DiverseVAR**, a simple yet highly effective approach to restore the **generative diversity** of **Visual Autoregressive (VAR)** models **without any additional training**.
