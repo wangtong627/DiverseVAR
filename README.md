@@ -8,8 +8,8 @@
 
 <sup>1</sup> Southeast University, <sup>2</sup> MBZUAI, <sup>3</sup> City University of Hong Kong, <sup>4</sup> Nankai University
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.17074-red)](https://arxiv.org/abs/2511.17074)
-[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://wangtong627.github.io/DiverseVAR)
+[![arXiv](assets/badges/arxiv.svg)](https://arxiv.org/abs/2511.17074)
+[![Website](assets/badges/website.svg)](https://wangtong627.github.io/DiverseVAR)
 </div>
 
 <p align="center">
